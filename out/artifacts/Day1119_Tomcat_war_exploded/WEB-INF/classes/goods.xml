@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xml声明 version是版本的意思 encoding是编码
+这个 <?xml 要连在一起写 否则会报错
+声明当中 3个属性：
+version 版本号
+encoding 是xml的文件编码
+standalone="yes/no" 表示这个xml文件是否是独立的xml文件
+-->
+
+<!--自行定义一个person.xml
+    三个person person :age name sex address
+    persons
+-->
+<goods>
+    <good id="SN12341231234" date="2020.1.1">
+        <name>滚筒洗衣机</name><!-- name商品名称-->
+        <firm firmId="123">格力</firm><!--生产厂商-->
+        <price>500.0</price><!--销售价格-->
+    </good>
+    <good id="SN123456789">
+        <name>洗面奶</name><!-- name商品名称-->
+        <firm>
+            <!-- DATA文本区里面的内容不会被解析 只会把他们当成纯文本-->
+            <![CDATA[
+            <<<<<<欧莱雅>>>>>>
+        ]]>
+        </firm><!--生产厂商-->
+        <price>50.0</price><!--销售价格-->
+    </good>
+    <good id="SN12341231235">
+        <name>笔记本电脑</name><!-- name商品名称-->
+        <firm>联想</firm><!--生产厂商-->
+        <price>5500.0</price><!--销售价格-->
+    </good>
+    <good id="SN12341231236">
+        <name>可乐</name><!-- name商品名称-->
+        <firm>百事</firm><!--生产厂商-->
+        <price>5.0</price><!--销售价格-->
+    </good>
+</goods>

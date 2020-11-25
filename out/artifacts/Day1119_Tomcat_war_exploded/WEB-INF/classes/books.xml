@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- xml 声明 version 是版本的意思 encoding 是编码 -->
+<!--这是一个xml注释-->
+<books>
+    <book id="1">
+        <bookName>钢铁是怎样炼成的</bookName>
+        <author>奥斯特洛夫斯基</author>
+        <price>50.0</price>
+
+    </book>
+    <book id="2">
+        <bookName>罪与罚</bookName>
+        <author>陀思妥耶夫斯基</author>
+        <price>60.0</price>
+    </book>
+    <book id="3">
+        <![CDATA[ <bookName>在人间</bookName> ]]>
+        <bookName>在人间</bookName>
+        <author>高尔基</author>
+        <price>70.0</price>
+    </book>
+</books>

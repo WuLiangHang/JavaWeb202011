@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <!--    sid     int(11) primary key not null,-->
+    <!--    sname   char(25) not null,-->
+    <!--    age     int(11) not null,-->
+    <!--    sex     char(2) not null,-->
+    <!--    department char(40) ,-->
+    <!--    address  char(200) ,-->
+    <!--    birthplace  varchar(256)-->
+    <student>
+        <studentId>1</studentId>
+        <studentName>张三</studentName>
+        <age>10</age>
+        <sex>男</sex>
+        <department>computer science</department>
+        <address>师大</address>
+        <birthplace>福建福州</birthplace>
+    </student>
+    <student>
+        <studentId>2</studentId>
+        <studentName>李四</studentName>
+        <age>12</age>
+        <sex>女</sex>
+        <department>会计</department>
+        <address>工程学院</address>
+        <birthplace>福建厦门</birthplace>
+    </student>
+    <student>
+        <studentId>3</studentId>
+        <studentName>王五</studentName>
+        <age>13</age>
+        <sex>女</sex>
+        <department>化工</department>
+        <address>福大</address>
+        <birthplace>福建泉州</birthplace>
+    </student>
+</students>
