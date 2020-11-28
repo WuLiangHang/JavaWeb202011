@@ -10,4 +10,10 @@ public interface MessageService {
 
     //根据id查询邮件详情
     Message queryMessageById(Integer id);
+
+    int insert(Message message);
+
+    int update(Message message);
+
+    int delete(Integer id);
 }
