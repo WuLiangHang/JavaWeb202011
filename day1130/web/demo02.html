@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //1.花括号包围
+        //2.每个键都由引号引起来
+        //3.键和值之间使用冒号分隔
+
+        //JSON两种形式：
+        // 1.JSON对象 ：用于操作JSON数据时
+        //2.JSON字符串 用于客户端和服务器之间进行数据交换
+        var jsonObj = {
+            "key1": 123,
+            "key2": false,
+            "key3": "zhangsan",
+            "key4": [1122, "str", true],
+            "key5": {
+                "key5_1": 567,
+                "key5_2": "value5_2"
+            },
+            "key6": [{
+                "key6_1_1": "value6_1_1",
+                "key6_1_2": "value6_1_2"
+            }, {
+                "key6_2_1": "value6_2_1",
+                "key6_2_2": "value6_2_2"
+            }]
+        };
+
+        //JSON的访问
+        // alert(typeof (jsonObj));//打印object JSON本身是一个对象
+        // // alert(jsonObj.key1);//访问属性值：json对象.key
+        // // alert(jsonObj.key2);
+        // // alert(jsonObj.key3);
+        // // alert(typeof (jsonObj.key4));
+        // for (var i = 0; i < jsonObj.key4.length; i++) {
+        //     console.log(jsonObj.key4[i]);
+        // }
+        // alert(jsonObj.key5.key5_1);
+        // alert(jsonObj.key5.key5_2);
+        // alert(jsonObj.key6[0].key6_1_1);
+
+        //JSON字符串与对象互转
+        //JSON.stringify() 将JSON对象 转换为 JSON字符串
+        var jsonObjString = JSON.stringify(jsonObj);
+        alert(typeof jsonObjString);//string
+        console.log(jsonObjString);
+
+        //JSON字符串转对象  JSON.parse()
+        var jsonObj2 = JSON.parse(jsonObjString);
+        alert(jsonObj2.key1);
+        alert(jsonObj2.key2);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

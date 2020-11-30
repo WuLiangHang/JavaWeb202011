@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Ajax</title>
+    <script src="static/js/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#ajaxBtn").click(function () {
+                $.ajax({
+                    url: "http://localhost:80/day1130/demo02",
+                    data: {action: "jQueryAjax"},
+                    type: "GET",
+                    dataType: "text",
+                    success: function (data) {
+                        //data代表服务器回传的数据
+                        alert(data);
+                        var jsonObj = JSON.parse(data);
+                        $("#msg").html("编号:" + jsonObj.id + ",姓名:" + jsonObj.name);
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+<button id="ajaxBtn">jQuery ajax request</button>
+<br/>
+<div id="msg"></div>
+</body>
+</html>

@@ -4,7 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Day1119_Tomcat/Day1119_Tomcat.iml" filepath="$PROJECT_DIR$/Day1119_Tomcat/Day1119_Tomcat.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaWeb02.iml" filepath="$PROJECT_DIR$/JavaWeb02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day1127/day1127.iml" filepath="$PROJECT_DIR$/day1127/day1127.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day1128/day1128.iml" filepath="$PROJECT_DIR$/day1128/day1128.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day1130/day1130.iml" filepath="$PROJECT_DIR$/day1130/day1130.iml" />
       <module fileurl="file://$PROJECT_DIR$/ebank/ebank.iml" filepath="$PROJECT_DIR$/ebank/ebank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msgsys/msgsys.iml" filepath="$PROJECT_DIR$/msgsys/msgsys.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop/shop.iml" filepath="$PROJECT_DIR$/shop/shop.iml" />
     </modules>
   </component>

@@ -101,7 +101,6 @@
         <div class="content-body">
             <%=message.getmContent()%>
         </div>
-
     </div>
 </div>
 </body>

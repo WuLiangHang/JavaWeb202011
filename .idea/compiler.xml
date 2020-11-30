@@ -6,13 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Day1119_Tomcat" />
+        <module name="day1130" />
         <module name="ebank" />
+        <module name="day1128" />
+        <module name="day1127" />
+        <module name="Day1119_Tomcat" />
+        <module name="msgsys" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Day1119_Tomcat" target="1.8" />
+      <module name="day1127" target="1.8" />
+      <module name="day1128" target="1.8" />
+      <module name="day1130" target="1.8" />
       <module name="ebank" target="1.8" />
+      <module name="msgsys" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

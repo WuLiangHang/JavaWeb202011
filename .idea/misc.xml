@@ -5,6 +5,10 @@
       <list>
         <option value="$PROJECT_DIR$/Day1119_Tomcat/pom.xml" />
         <option value="$PROJECT_DIR$/ebank/pom.xml" />
+        <option value="$PROJECT_DIR$/msgsys/pom.xml" />
+        <option value="$PROJECT_DIR$/day1127/pom.xml" />
+        <option value="$PROJECT_DIR$/day1128/pom.xml" />
+        <option value="$PROJECT_DIR$/day1130/pom.xml" />
       </list>
     </option>
   </component>

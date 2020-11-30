@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jsonObj>
+    <key1>123</key1>
+    <key2>false</key2>
+    <key3>zhangsan</key3>
+    <key4>1122</key4>
+     <key4>str</key4>
+    <key4>true</key4>
+    <key5>
+        <key5_1>567</key5_1>
+        <key5_2>value5_2</key5_2>
+    </key5>
+</jsonObj>

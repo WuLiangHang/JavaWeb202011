@@ -22,4 +22,6 @@ public interface UserService {
     User queryUserById(Integer id);
 
     User queryUserByEmail(String email);
+
+    User queryUserByUsername(String username);
 }

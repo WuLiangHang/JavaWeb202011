@@ -67,8 +67,9 @@ public class MessageServlet extends BaseServlet {
                 msg = "发送失败!";
             }
         }
-        request.setAttribute("msg", msg);
-        request.getRequestDispatcher("/result.jsp").forward(request, response);
+        response.getWriter().write(msg);
+//        request.setAttribute("msg", msg);
+//        request.getRequestDispatcher("/result.jsp").forward(request, response);
 //
     }
 

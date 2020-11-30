@@ -2,11 +2,117 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ebank:war exploded" />
+      <artifact name="msgsys:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e789f0cb-5832-4f19-8e7c-8cb54004aa6e" name="Default Changelist" comment="" />
+    <list default="true" id="e789f0cb-5832-4f19-8e7c-8cb54004aa6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day1127_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day1128_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day1130_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/msgsys_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1119_Tomcat/src/com/dfrz/day1126/demo01/Demo01Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1119_Tomcat/src/com/dfrz/day1126/demo01/Demo02Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1119_Tomcat/src/com/dfrz/day1126/demo01/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1119_Tomcat/src/com/dfrz/day1126/demo01/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1119_Tomcat/src/com/dfrz/day1126/demo01/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1119_Tomcat/src/com/dfrz/day1126/demo02/MyHttpSessionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1119_Tomcat/src/com/dfrz/day1126/demo02/MyServletContextListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1119_Tomcat/src/com/dfrz/day1126/demo02/MyServletRequestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1119_Tomcat/web/day1126/demo01.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1119_Tomcat/web/day1126/demo02.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1119_Tomcat/web/day1126/index1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1119_Tomcat/web/day1126/index2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1119_Tomcat/web/day1126/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1127.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1128/day1128.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1128/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1128/src/com/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1128/src/com/listener/UserListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1128/src/com/servlet/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1128/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1128/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1128/web/users.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1130/day1130.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1130/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1130/src/com/bean/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1130/src/com/servlet/Demo01Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1130/src/com/servlet/Demo02Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1130/src/com/test/JSONTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1130/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1130/web/demo01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1130/web/demo02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1130/web/demo03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1130/web/demo04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1130/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1130/web/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1130/web/xmlObj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msgsys/src/com/msgsys/servlet/ImageUploadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msgsys/src/com/msgsys/utils/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msgsys/web/static/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1119_Tomcat/Day1119_Tomcat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Day1119_Tomcat/Day1119_Tomcat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1119_Tomcat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day1119_Tomcat/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1119_Tomcat/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day1119_Tomcat/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1127/web/demo01.html" beforeDir="false" afterPath="$PROJECT_DIR$/day1127/web/demo01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msgsys/src/com/msgsys/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/msgsys/src/com/msgsys/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msgsys/src/com/msgsys/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/msgsys/src/com/msgsys/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msgsys/src/com/msgsys/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msgsys/src/com/msgsys/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msgsys/src/com/msgsys/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/msgsys/src/com/msgsys/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msgsys/src/com/msgsys/servlet/MessageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/msgsys/src/com/msgsys/servlet/MessageServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msgsys/src/com/msgsys/servlet/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/msgsys/src/com/msgsys/servlet/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msgsys/web/details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/msgsys/web/details.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msgsys/web/send.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/msgsys/web/send.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msgsys/web/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/msgsys/web/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Day1119_Tomcat_war_exploded/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Day1119_Tomcat_war_exploded/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Day1119_Tomcat_war_exploded/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Day1119_Tomcat_war_exploded/WEB-INF/lib/gson-2.2.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Day1119_Tomcat_war_exploded/WEB-INF/lib/gson-2.2.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Day1119_Tomcat_war_exploded/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Day1119_Tomcat_war_exploded/WEB-INF/lib/kaptcha-2.3.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Day1119_Tomcat_war_exploded/WEB-INF/lib/kaptcha-2.3.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Day1119_Tomcat_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Day1119_Tomcat_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Day1119_Tomcat_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1120/ContextServlet1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1120/ContextServlet2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1120/ContextServlet3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1120/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1120/MyServlet1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1120/MyServlet2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1121/demo01/AServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1121/demo01/BServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1121/demo01/CountServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1121/demo01/Demo01Servlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1121/demo01/RequestTestServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1121/demo01/UserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1123/demo01/PrintHTMLServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1123/demo01/ServletDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1123/demo01/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1123/demo02/Demo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1123/demo02/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1124/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1124/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1125/demo01/AServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1125/demo01/BServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1125/demo01/CServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1125/demo01/CookieUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1125/demo01/CreateCookieServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1125/demo01/Demo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1125/demo01/Demo01Servlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1125/demo01/Demo02Servlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1125/demo01/GetCookieServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1125/demo01/GoodsServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/day1125/demo01/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/test/JUnitTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/xml/Good.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/xml/JavaDocument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/xml/JavaDocumentDom4j.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/xml/JavaSax$SaxHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day1119_Tomcat/com/dfrz/xml/JavaSax.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,14 +125,23 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
-        <option value="HTML File" />
+        <option value="CSS File" />
         <option value="Jsp File" />
+        <option value="Class" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\WuLiangHang\IdeaProjects\JavaWeb02\.idea" />
+      </set>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -52,20 +167,26 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1kUO92cGVXsuI6NgK1FeBNDJq0R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/upload" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -73,88 +194,71 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\WuLiangHang\IdeaProjects\JavaWeb02\msgsys\web" />
+      <recent name="C:\Users\WuLiangHang\IdeaProjects\JavaWeb02\msgsys\web\static" />
       <recent name="C:\Users\WuLiangHang\IdeaProjects\JavaWeb02\ebank\web" />
       <recent name="C:\Users\WuLiangHang\IdeaProjects\JavaWeb02\ebank\web\WEB-INF" />
       <recent name="C:\Users\WuLiangHang\IdeaProjects\JavaWeb02\Day1119_Tomcat\web\day1123" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.msgsys.servlet" />
+      <recent name="com.msgsys.utils" />
+      <recent name="com.dao" />
+      <recent name="com.utils" />
+      <recent name="com.msgsys.dao" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\WuLiangHang\IdeaProjects\JavaWeb02\ebank" />
-      <recent name="C:\Users\WuLiangHang\IdeaProjects\JavaWeb02\Day1119_Tomcat\web\img\day1125" />
-      <recent name="C:\Users\WuLiangHang\IdeaProjects\JavaWeb02\ebank\web\WEB-INF\lib" />
-      <recent name="C:\Users\WuLiangHang\IdeaProjects\JavaWeb02\Day1119_Tomcat\web\day1123\img" />
-      <recent name="C:\Users\WuLiangHang\IdeaProjects\JavaWeb02\shop1\web" />
+      <recent name="C:\Users\WuLiangHang\IdeaProjects\JavaWeb02\day1127\web\static\js" />
+      <recent name="C:\Users\WuLiangHang\IdeaProjects\JavaWeb02\msgsys\web\static\js" />
+      <recent name="C:\Users\WuLiangHang\IdeaProjects\JavaWeb02\day1130\web\static" />
+      <recent name="C:\Users\WuLiangHang\IdeaProjects\JavaWeb02\day1130" />
+      <recent name="C:\Users\WuLiangHang\IdeaProjects\JavaWeb02\day1128" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.ebank">
-    <configuration name="Demo01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dfrz.day1125.demo01.Demo01" />
-      <module name="Day1119_Tomcat" />
+  <component name="RunManager" selected="Tomcat Server.msgsys">
+    <configuration name="JSONTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day1130" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dfrz.day1125.demo01.*" />
+          <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dfrz.day1123.demo02.Demo01" />
-      <module name="Day1119_Tomcat" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dfrz.day1123.demo02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ChargeInfoTest.queryUserByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ebank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.charge.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.charge.test" />
-      <option name="MAIN_CLASS_NAME" value="com.charge.test.ChargeInfoTest" />
-      <option name="METHOD_NAME" value="queryUserByIdTest" />
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.JSONTest" />
+      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChargeInfoTest.updateUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ebank" />
+    <configuration name="JSONTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day1130" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.charge.test.*" />
+          <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.charge.test" />
-      <option name="MAIN_CLASS_NAME" value="com.charge.test.ChargeInfoTest" />
-      <option name="METHOD_NAME" value="updateUserTest" />
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.JSONTest" />
+      <option name="METHOD_NAME" value="test03" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo01.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Day1119_Tomcat" />
+    <configuration name="JSONTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day1130" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dfrz.day1125.demo01.*" />
+          <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dfrz.day1125.demo01" />
-      <option name="MAIN_CLASS_NAME" value="com.dfrz.day1125.demo01.Demo01" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.JSONTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -233,24 +337,228 @@
         </option>
       </method>
     </configuration>
-    <configuration name="Tomcat 8.5.43" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.43" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="day1127" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.43" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
-        <artifact name="ebank:war exploded">
+        <artifact name="day1127:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/ebank_war_exploded" />
+            <option name="CONTEXT_PATH" value="/day1127" />
           </settings>
         </artifact>
+        <file path="D:/upload">
+          <settings>
+            <option name="CONTEXT_PATH" value="/upload" />
+          </settings>
+        </file>
       </deployment>
-      <server-settings />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_JavaWeb02_6" />
+      </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59649" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="ebank:war exploded" />
+          <artifact name="day1127:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="day1128" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.43" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/day1128/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="day1128:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/day1128" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_JavaWeb02_7" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55438" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="day1128:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="day1130" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.43" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="day1130:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/day1130" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_JavaWeb02_8" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55475" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="day1130:war exploded" />
         </option>
       </method>
     </configuration>
@@ -324,6 +632,84 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="ebank:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="msgsys" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.43" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="msgsys:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/msgsys" />
+          </settings>
+        </artifact>
+        <file path="D:/upload">
+          <settings>
+            <option name="CONTEXT_PATH" value="/upload" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_JavaWeb02_5" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59545" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="msgsys:war exploded" />
         </option>
       </method>
     </configuration>
@@ -402,23 +788,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Demo01" />
-      <item itemvalue="Application.Demo01 (1)" />
-      <item itemvalue="JUnit.ChargeInfoTest.updateUserTest" />
-      <item itemvalue="JUnit.ChargeInfoTest.queryUserByIdTest" />
-      <item itemvalue="JUnit.Demo01.test01" />
+      <item itemvalue="JUnit.JSONTest.test1" />
+      <item itemvalue="JUnit.JSONTest.test02" />
+      <item itemvalue="JUnit.JSONTest.test03" />
+      <item itemvalue="Tomcat Server.day1130" />
       <item itemvalue="Tomcat Server.ebank" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.43" />
       <item itemvalue="Tomcat Server.shop" />
+      <item itemvalue="Tomcat Server.msgsys" />
+      <item itemvalue="Tomcat Server.day1128" />
+      <item itemvalue="Tomcat Server.day1127" />
       <item itemvalue="Tomcat Server.Day1119_Tomcat" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Demo01.test01" />
-        <item itemvalue="Application.Demo01 (1)" />
-        <item itemvalue="Application.Demo01" />
-        <item itemvalue="JUnit.ChargeInfoTest.queryUserByIdTest" />
-        <item itemvalue="JUnit.ChargeInfoTest.updateUserTest" />
+        <item itemvalue="JUnit.JSONTest.test03" />
+        <item itemvalue="JUnit.JSONTest.test02" />
+        <item itemvalue="JUnit.JSONTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -436,6 +821,11 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Failed" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -469,90 +859,150 @@
       <workItem from="1606122061810" duration="24000" />
       <workItem from="1606179815651" duration="9232000" />
       <workItem from="1606265811214" duration="8672000" />
-      <workItem from="1606275956876" duration="8293000" />
+      <workItem from="1606275956876" duration="9646000" />
+      <workItem from="1606347963064" duration="20735000" />
+      <workItem from="1606434653977" duration="10003000" />
+      <workItem from="1606524534272" duration="4657000" />
+      <workItem from="1606529296234" duration="5860000" />
+      <workItem from="1606545717004" duration="627000" />
+      <workItem from="1606692010280" duration="546000" />
+      <workItem from="1606692593076" duration="22164000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1606294453615</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606294453615</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1126:&#10;添加 登录、注册、session显示用户名、邮箱列表查看、注销功能">
+      <created>1606381635005</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606381635006</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1128：&#10;新增 消息发送 消息已读 消息删除 前端登录、注册模板">
+      <created>1606534634957</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606534634957</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1130:wangEditor 图片上传案例 以及服务器映射本地硬盘 直接以http形式访问硬盘内的内容">
+      <created>1606720477290</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606720477290</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="第一次提交" />
+    <MESSAGE value="1126:&#10;添加 登录、注册、session显示用户名、邮箱列表查看、注销功能" />
+    <MESSAGE value="1128：&#10;新增 消息发送 消息已读 消息删除 前端登录、注册模板" />
+    <MESSAGE value="1130:wangEditor 图片上传案例 以及服务器映射本地硬盘 直接以http形式访问硬盘内的内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="1130:wangEditor 图片上传案例 以及服务器映射本地硬盘 直接以http形式访问硬盘内的内容" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="287" y="65" width="1249" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606284737891">
+    <state x="261" y="0" key="#Project_Structure" timestamp="1606534904179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="287" y="65" width="1249" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1606284737891" />
-    <state x="516" y="28" key="#com.intellij.ide.util.MemberChooser" timestamp="1606268829089">
+    <state x="261" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1606534904179" />
+    <state x="230" y="79" width="1249" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606724172926">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="516" y="28" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1606268829089" />
+    <state x="230" y="79" width="1249" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1606724172926" />
+    <state x="370" y="204" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606699285984">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="370" y="204" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1606699285984" />
+    <state x="516" y="28" key="#com.intellij.ide.util.MemberChooser" timestamp="1606714182010">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="516" y="28" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1606714182010" />
+    <state x="347" y="0" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1606718886723">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="347" y="0" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1536.824@0.0.1536.824" timestamp="1606718886723" />
+    <state x="436" y="100" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606692979798">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="436" y="100" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606692979798" />
     <state x="612" y="51" width="830" height="722" key="#xdebugger.evaluate" timestamp="1606113816529">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="612" y="51" width="830" height="722" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1606113816529" />
-    <state x="101" y="0" key="CommitChangelistDialog2" timestamp="1606294416360">
+    <state x="101" y="0" key="CommitChangelistDialog2" timestamp="1606720473804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="101" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606294416360" />
+    <state x="101" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606720473804" />
     <state width="469" height="546" key="DebuggerActiveHint" timestamp="1606113658621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="469" height="546" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1606113658621" />
-    <state x="486" y="130" key="FileChooserDialogImpl" timestamp="1606294219524">
+    <state x="195" y="77" key="FileChooserDialogImpl" timestamp="1606723412045">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="486" y="130" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606294219524" />
+    <state x="195" y="77" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606723412045" />
     <state x="548" y="274" width="365" height="327" key="Github.ShareDialog" timestamp="1606294167994">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="274" width="365" height="327" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1606294167994" />
-    <state width="1013" height="76" key="GridCell.Tab.0.bottom" timestamp="1606294416427">
+    <state width="1013" height="269" key="GridCell.Tab.0.bottom" timestamp="1606724139365">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1013" height="76" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606294416427" />
-    <state width="1013" height="76" key="GridCell.Tab.0.center" timestamp="1606294416426">
+    <state width="1013" height="269" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606724139365" />
+    <state width="1013" height="269" key="GridCell.Tab.0.center" timestamp="1606724139365">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1013" height="76" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606294416426" />
-    <state width="1013" height="76" key="GridCell.Tab.0.left" timestamp="1606294416426">
+    <state width="1013" height="269" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606724139365" />
+    <state width="1013" height="269" key="GridCell.Tab.0.left" timestamp="1606724139364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1013" height="76" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606294416426" />
-    <state width="1013" height="76" key="GridCell.Tab.0.right" timestamp="1606294416427">
+    <state width="1013" height="269" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606724139364" />
+    <state width="1013" height="269" key="GridCell.Tab.0.right" timestamp="1606724139365">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1013" height="76" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606294416427" />
-    <state width="1013" height="76" key="GridCell.Tab.1.bottom" timestamp="1606294416427">
+    <state width="1013" height="269" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606724139365" />
+    <state width="1013" height="269" key="GridCell.Tab.1.bottom" timestamp="1606724140618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1013" height="76" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606294416427" />
-    <state width="1013" height="76" key="GridCell.Tab.1.center" timestamp="1606294416427">
+    <state width="1013" height="269" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606724140618" />
+    <state width="1013" height="269" key="GridCell.Tab.1.center" timestamp="1606724140618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1013" height="76" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1606294416427" />
-    <state width="1013" height="76" key="GridCell.Tab.1.left" timestamp="1606294416427">
+    <state width="1013" height="269" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1606724140618" />
+    <state width="1013" height="269" key="GridCell.Tab.1.left" timestamp="1606724140618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1013" height="76" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1606294416427" />
-    <state width="1013" height="76" key="GridCell.Tab.1.right" timestamp="1606294416427">
+    <state width="1013" height="269" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1606724140618" />
+    <state width="1013" height="269" key="GridCell.Tab.1.right" timestamp="1606724140618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1013" height="76" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1606294416427" />
-    <state width="1013" height="76" key="GridCell.Tab.2.bottom" timestamp="1606294416427">
+    <state width="1013" height="269" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1606724140618" />
+    <state width="1013" height="269" key="GridCell.Tab.2.bottom" timestamp="1606724142699">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1013" height="76" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606294416427" />
-    <state width="1013" height="76" key="GridCell.Tab.2.center" timestamp="1606294416427">
+    <state width="1013" height="269" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606724142699" />
+    <state width="1013" height="269" key="GridCell.Tab.2.center" timestamp="1606724142699">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1013" height="76" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1606294416427" />
-    <state width="1013" height="76" key="GridCell.Tab.2.left" timestamp="1606294416427">
+    <state width="1013" height="269" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1606724142699" />
+    <state width="1013" height="269" key="GridCell.Tab.2.left" timestamp="1606724142699">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1013" height="76" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1606294416427" />
-    <state width="1013" height="76" key="GridCell.Tab.2.right" timestamp="1606294416427">
+    <state width="1013" height="269" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1606724142699" />
+    <state width="1013" height="269" key="GridCell.Tab.2.right" timestamp="1606724142699">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1013" height="76" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1606294416427" />
+    <state width="1013" height="269" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1606724142699" />
     <state width="1013" height="241" key="GridCell.Tab.3.bottom" timestamp="1606121978502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -569,30 +1019,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1013" height="241" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1606121978502" />
-    <state x="196" y="0" key="SettingsEditor" timestamp="1606294134199">
+    <state x="329" y="56" key="RollbackChangesDialog" timestamp="1606699263272">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="196" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606294134199" />
+    <state x="329" y="56" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606699263272" />
+    <state x="196" y="0" key="SettingsEditor" timestamp="1606704447254">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="196" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606704447254" />
+    <state width="623" height="498" key="SwitcherDM" timestamp="1606446486036">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="623" height="498" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1606446486036" />
+    <state x="261" y="79" key="Vcs.Push.Dialog.v2" timestamp="1606720481946">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="261" y="79" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606720481946" />
     <state x="349" y="295" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1605752963475">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="295" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1605752963475" />
-    <state x="364" y="113" width="810" height="598" key="find.popup" timestamp="1606093684405">
+    <state x="364" y="113" width="810" height="598" key="find.popup" timestamp="1606707718209">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="364" y="113" width="810" height="598" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1606093684405" />
-    <state x="0" y="0" key="new project wizard" timestamp="1606193300022">
+    <state x="364" y="113" width="810" height="598" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1606707718209" />
+    <state x="0" y="0" key="new project wizard" timestamp="1606692118624">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1606193300022" />
+    <state x="0" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1606692118624" />
     <state x="341" y="183" key="run.anything.popup" timestamp="1606181855161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="341" y="183" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1606181855161" />
-    <state x="347" y="0" width="840" height="822" key="search.everywhere.popup" timestamp="1606284434031">
+    <state x="347" y="0" width="840" height="822" key="search.everywhere.popup" timestamp="1606707713208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="347" y="0" width="840" height="822" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1606284434031" />
+    <state x="347" y="0" width="840" height="822" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1606707713208" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -601,6 +1063,11 @@
           <url>file://$PROJECT_DIR$/ebank/src/com/charge/servlet/ChargeServlet.java</url>
           <line>20</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/msgsys/web/send.jsp</url>
+          <line>76</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
