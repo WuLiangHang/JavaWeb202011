@@ -13,6 +13,8 @@ public interface UserDao {
 
     List<User> queryAll();
 
+    User queryUserByNameAndPassword(User user);
+
     User queryUserById(Long id);
 
     //查询当前表的总记录条数

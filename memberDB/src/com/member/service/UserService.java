@@ -22,4 +22,7 @@ public interface UserService {
     List<User> queryAll();
 
     User queryUserById(Long id);
+
+    //登录
+    User login(User user);
 }

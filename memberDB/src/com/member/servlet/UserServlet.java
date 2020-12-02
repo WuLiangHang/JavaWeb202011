@@ -37,4 +37,29 @@ public class UserServlet extends BaseServlet {
         Integer result = userService.delete(userId);
         response.getWriter().write(result.toString());
     }
+
+    public void login(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        String username = request.getParameter("username");
+        String password = request.getParameter("password");
+        User user = new User();
+        user.setUsername(username);
+        user.setPassword(password);
+
+        User user1 = userService.login(user);
+        if (user1 == null) {
+            //登录失败
+            response.getWriter().write("false");
+//            response.sendRedirect("/login.html");
+        } else {
+            //登录成功
+            response.getWriter().write("true");
+            request.getSession().setAttribute("user", user1);
+        }
+    }
+
+    public void logout(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        request.getSession().invalidate();
+        response.sendRedirect("/memberDB/login.html");
+    }
+
 }

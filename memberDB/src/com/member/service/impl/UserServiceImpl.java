@@ -62,4 +62,9 @@ public class UserServiceImpl implements UserService {
     public User queryUserById(Long id) {
         return userDao.queryUserById(id);
     }
+
+    @Override
+    public User login(User user) {
+        return userDao.queryUserByNameAndPassword(user);
+    }
 }
