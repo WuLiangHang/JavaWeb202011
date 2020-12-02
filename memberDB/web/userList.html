@@ -4,42 +4,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>用户管理系统</title>
-    <!-- Bootstrap core CSS -->
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <!-- <link href="theme.css" rel="stylesheet"> -->
     <script type="text/javascript" src="static/js/jquery.min.js"></script>
     <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://www.huangwx.cn/css/sweetalert.css">
+    <script type="text/javascript" src="https://www.huangwx.cn/js/sweetalert-dev.js"></script>
     <script type="text/javascript">
+
+
         $(function () {
-            $.ajax({
-                url: "http://localhost:80/memberDB/user.do",
-                data: {action: "queryPage", pageNo: 1},
-                type: "GET",
-                dataType: "text",
-                success: function (data) {
-                    //data代表服务器回传的数据
-                    let jsonObj = JSON.parse(data);
-                    let buttons = "<td>\n" +
-                        "<button type=\"button\" class=\"upbtn btn btn-sm btn-info\">修改</button>\n" +
-                        "<button type=\"button\" class=\"delbtn btn btn-danger btn-sm\">删除</button>\n" +
-                        "</td>";
-                    $("#totalPageCount").html("共" + jsonObj.pageTotal + "页");
-                    for (let i = 1; i <= jsonObj.pageTotal; i++) {
-                        $("#pageButton").append('<a class="btn btn-default" href="http://localhost:80/memberDB/user.do?action=queryPage&pageNo=' + i + '">' + i + '</a>\n');
+            function load(pageNo) {
+                $.ajax({
+                    url: "http://localhost:80/memberDB/user.do",
+                    data: {action: "queryPage", pageNo: pageNo},
+                    type: "GET",
+                    dataType: "text",
+                    success: function (data) {
+                        initData(data);
                     }
-                    for (let i = 0; i < jsonObj.items.length; i++) {
-                        let trNode = $("<tr></tr>");
-                        trNode.append("<td>" + jsonObj.items[i].id + "</td>");
-                        trNode.append("<td>" + jsonObj.items[i].username + "</td>");
-                        trNode.append("<td>" + jsonObj.items[i].password + "</td>");
-                        trNode.append("<td>" + jsonObj.items[i].type + "</td>");
-                        trNode.append("<td>" + jsonObj.items[i].status + "</td>");
-                        trNode.append(buttons);
-                        $("#tbdoy1").append(trNode);
+                });
+            }
+
+            load(1);
+
+            function page(jsonObj) {
+                //前端分页
+                $("#pageButton").empty();
+                $("#totalPageCount").html("共" + jsonObj.pageTotal + "页");
+                for (let i = 1; i <= jsonObj.pageTotal; i++) {
+                    if (i == jsonObj.pageNo) {
+                        $("#pageButton").append('<button class="page-btn btn btn-primary">' + i + '</button>\n');
+                    } else {
+                        $("#pageButton").append('<button class="page-btn btn btn-default">' + i + '</button>\n');
                     }
                 }
-            });
+                $(".page-btn").on("click", function () {
+                    load($(this).text());
+                });
+            }
+
+            function initData(data) {
+                //data代表服务器回传的数据
+                let jsonObj = JSON.parse(data);
+                let buttons = "<td>\n" +
+                    "<button type=\"button\" class=\"upbtn btn btn-sm btn-info\">修改</button>\n" +
+                    "<button type=\"button\" class=\"delbtn btn btn-danger btn-sm\">删除</button>\n" +
+                    "</td>";
+                page(jsonObj);
+                $("#tbdoy1").empty();
+                //数据回填
+                for (let i = 0; i < jsonObj.items.length; i++) {
+                    let trNode = $("<tr></tr>");
+                    trNode.append("<td>" + jsonObj.items[i].id + "</td>");
+                    trNode.append("<td>" + jsonObj.items[i].username + "</td>");
+                    trNode.append("<td>" + jsonObj.items[i].password + "</td>");
+                    trNode.append("<td>" + jsonObj.items[i].type + "</td>");
+                    trNode.append("<td>" + jsonObj.items[i].status + "</td>");
+                    trNode.append(buttons);
+                    $("#tbdoy1").append(trNode);
+                }
+                $(".delbtn").on("click", function () {
+                    let id = $($(this).parents("tr").children("td")[0]).html().trim();
+                    $.ajax({
+                        url: "http://localhost:80/memberDB/user.do",
+                        data: {action: "delete", userId: id},
+                        type: "GET",
+                        dataType: "text",
+                        success: function (data) {
+                            if (data > 0) {
+                                swal("删除成功!", "", "success");
+                                load(jsonObj.pageNo);
+                            } else {
+                                swal("删除失败!", "", "error");
+                            }
+                        }
+                    });
+                });
+            }
         });
     </script>
 </head>
@@ -141,9 +183,12 @@
                         </div>
                     </div>
                 </div>
+
                 <div align="center" id="pageButton">
-                    <b id="totalPageCount">共页</b>
+
                 </div>
+                <div style="text-align: center"><b id="totalPageCount">共页</b></div>
+
             </div>
         </div>
 

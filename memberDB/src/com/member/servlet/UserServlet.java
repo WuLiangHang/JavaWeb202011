@@ -31,4 +31,10 @@ public class UserServlet extends BaseServlet {
         String jsonStr = gson.toJson(page);
         response.getWriter().write(jsonStr);
     }
+
+    public void delete(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        Long userId = Long.valueOf(request.getParameter("userId"));
+        Integer result = userService.delete(userId);
+        response.getWriter().write(result.toString());
+    }
 }
